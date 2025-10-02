@@ -19,6 +19,11 @@ sudo apt update
 ```
 ```bash
 sudo apt install python3 python3-pip python3-venv
+# confirm download with "yes"
+```
+```bash
+sudo apt install git
+# confirm download with "yes"
 ```
 ```bash
 Git clone #insert link for flask template git repo 
