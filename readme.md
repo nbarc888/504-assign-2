@@ -14,23 +14,30 @@ Ensure HTTP Traffic and HTTPS Traffic is allowed under networking category
 
 # Launch VM then go to SHH
 Insert following codes
-
+```bash
 sudo apt update 
-
+```
+```bash
 sudo apt install python3 python3-pip python3-venv
-
-Git clone (insert link for flask template git repo) 
-
-Ls -l to list down files within repo
-
-Then cd (file) and repear ls -l
-
+```
+```bash
+Git clone #insert link for flask template git repo 
+```
+```bash
+Ls -l #to list down files within repo
+```
+```bash
+Then cd (file) and repeat ls -l
+```
+```bash
 python -m venv venv
-
+```
+```bash
 source venv/bin/activate
-
+```
+```bash
 python flaskapp.py
-
+```
 # Firewall edit
 Go into fire wall box to create a general rule to enable general public access rather than default access to 433. 
 Scroll down to protocols and ports to TCP type in number then create. 
