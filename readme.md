@@ -14,13 +14,21 @@ Ensure HTTP Traffic and HTTPS Traffic is allowed under networking category
 
 # Launch VM then go to SHH
 Insert following codes
-Sudo apt update 
+
+sudo apt update 
+
 sudo apt install python3 python3-pip python3-venv
+
 Git clone (insert link for flask template git repo) 
+
 Ls -l to list down files within repo
+
 Then cd (file) and repear ls -l
+
 python -m venv venv
+
 source venv/bin/activate
+
 python flaskapp.py
 
 # Firewall edit
