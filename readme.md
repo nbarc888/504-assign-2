@@ -43,6 +43,9 @@ python -m venv venv
 source venv/bin/activate
 ```
 ```bash
+Pip install -r requirements.txt
+```
+```bash
 python flaskapp.py
 ```
 # Firewall edit
