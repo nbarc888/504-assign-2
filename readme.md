@@ -52,3 +52,6 @@ python flaskapp.py
 Go into fire wall box to create a general rule to enable general public access rather than default access to 433. 
 Scroll down to protocols and ports to TCP type in number then create. 
 For Source ivp4 insert 0.0.0.0
+
+NOTE when you copy and paste external IP convert HTTPS to HTTP !!!!!
+
