@@ -1,4 +1,6 @@
 Video Link: 
+git link: https://github.com/nbarc888/504-assign-2 
+
 
 Hello Everyone this is a tutorial on how to create a VM instance on Google Cloud with Flask Deployment
 
@@ -16,7 +18,7 @@ Ensure HTTP Traffic and HTTPS Traffic is allowed under networking category
 Insert following codes
 Sudo apt update 
 sudo apt install python3 python3-pip python3-venv
-Git clone (insert link for flask template git repo) 
+Git clone https://github.com/nbarc888/504-assign-2 (insert link for flask template git repo) 
 Ls -l to list down files within repo
 Then cd (file) and repear ls -l
 python -m venv venv
