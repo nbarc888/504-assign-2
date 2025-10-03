@@ -1,11 +1,4 @@
-# Flask on Cloud VM (Assignment 2) 
-
-Name: Nina Barcelon
-Cloud provider : Google Cloud
-
-## Video links and resources: 
-
-Video Link: https://www.youtube.com/watch?v=Y0DL8UBJM3I
+Video Link:
 
 Code Breakdown Video: https://www.youtube.com/watch?v=aYQn1QfHayY
 
@@ -107,7 +100,3 @@ Double click on the search bar to bring up full https address
 HTTPS:123.45.678:5003
 ```
 Dont forget, when you copy and paste external IP, convert HTTPS to HTTP  by removing the S !
-
-
-### Link to flask app deployment
-http://136.112.90.132:5003/ 
