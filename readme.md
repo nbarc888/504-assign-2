@@ -9,8 +9,21 @@ Code Breakdown Video: https://www.youtube.com/watch?v=aYQn1QfHayY
 
 resource for flask: https://flask.palletsprojects.com/en/stable/
 
-## First step is to get code set up and pre-upload code to github repo 
+## First step is to get code set up and pre-upload folder to github repo 
+
 Code we are using for flask application is flaskapp.py
+
+Breakdown of uploaded folder into repo should show up as following: 
+
+### 504-assign-2
+| venv | |
+|---|---|
+| flaskapp.py ||
+|readme||
+|requirements.txt||
+
+Make sure to upload folder into github.
+
 
 ## Second step is to set up Google Cloud VM instance
 Machine configuration settings for this instance used: 
