@@ -32,9 +32,11 @@ git clone #insert link for flask template git repo
 ls -l #to list down files within repo
 ```
 ```bash
-Then cd file-listed-above/
+cd file-listed-above/
   #include the /
- ls -l
+```
+```bash
+ls -l
 ```
 ```bash
 python -m venv venv
