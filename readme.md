@@ -1,6 +1,10 @@
-Video Link: 
+Video Link:
+
+Code Breakdown Video: 
+
 git link: https://github.com/nbarc888/504-assign-2 
 
+resource for flask: https://flask.palletsprojects.com/en/stable/
 
 # Hello Everyone this is a tutorial on how to create a VM instance on Google Cloud with Flask Deployment
 
