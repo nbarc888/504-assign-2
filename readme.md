@@ -72,6 +72,9 @@ pip install -r requirements.txt
 ```bash
 python flaskapp.py
 ```
+![ ip screenshot  ](images/screenshot5.JPG)  
+
+
 HTTPS link for the app will generate but will not be functional until following steps. 
 
 ## Firewall configuration
@@ -90,9 +93,6 @@ For this example we will be using port 5003
 Once firewall edits have been made, copy and paste the external IP address into the search bar. 
 For example it may show up as this: 
 
-![ ip screenshot  ](images/screenshot5.JPG) 
-
-or 
 
 ```bash
 123.45.678
