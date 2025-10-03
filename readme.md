@@ -104,10 +104,11 @@ Then once inserted, insert the port numbers used.
 ```
 Double click on the search bar to bring up full https address 
 
-### Link to flask app deployment
-http://136.112.90.132:5003/ 
-
 ```bash
 HTTPS:123.45.678:5003
 ```
 Dont forget, when you copy and paste external IP, convert HTTPS to HTTP  by removing the S !
+
+
+### Link to flask app deployment
+http://136.112.90.132:5003/ 
