@@ -1,4 +1,4 @@
-Video Link:
+Video Link: https://www.youtube.com/watch?v=Y0DL8UBJM3I
 
 Code Breakdown Video: 
 
