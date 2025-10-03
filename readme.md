@@ -26,10 +26,10 @@ sudo apt install git
 # confirm download with "yes"
 ```
 ```bash
-Git clone #insert link for flask template git repo 
+git clone #insert link for flask template git repo 
 ```
 ```bash
-Ls -l #to list down files within repo
+ls -l #to list down files within repo
 ```
 ```bash
 Then cd file-listed-above/
