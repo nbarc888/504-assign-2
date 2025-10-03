@@ -1,4 +1,6 @@
-Video Link:
+# Flask on Cloud VM (Assignment 2)
+
+Video Link: https://youtu.be/Y0DL8UBJM3I 
 
 Code Breakdown Video: https://www.youtube.com/watch?v=aYQn1QfHayY
 
@@ -100,3 +102,7 @@ Double click on the search bar to bring up full https address
 HTTPS:123.45.678:5003
 ```
 Dont forget, when you copy and paste external IP, convert HTTPS to HTTP  by removing the S !
+
+### link to flask application /IP address
+
+http://136.112.90.132:5003/ 
