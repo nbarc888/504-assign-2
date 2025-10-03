@@ -16,9 +16,9 @@ Code we are using for flask application is flaskapp.py
 Breakdown of uploaded folder into repo should show up as following: 
 
 ### 504-assign-2
-| venv | virtual environment|
-|---||
-| flaskapp.py | python script for flask|
+| venv | virtual environment |
+|---|---|
+| flaskapp.py | python script for flask |
 |readme.md| readme file for decription |
 |requirements.txt| requirement text file for flask to upload into VM |
 
