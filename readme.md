@@ -89,6 +89,11 @@ For this example we will be using port 5003
 ## Flask App Running
 Once firewall edits have been made, copy and paste the external IP address into the search bar. 
 For example it may show up as this: 
+
+![ ip screenshot  ](images/screenshot5.JPG) 
+
+or 
+
 ```bash
 123.45.678
 ```
@@ -106,3 +111,8 @@ Dont forget, when you copy and paste external IP, convert HTTPS to HTTP  by remo
 ### link to flask application /IP address
 
 http://136.112.90.132:5003/ 
+
+![ flask screenshot  ](images/screenshot6.JPG)
+
+Machine will continue to run until end of October 2025. If past this date for review below includes a video showing proof that link to flask works. Video will be set to private in November 2025. 
+https://youtu.be/ZR-o959km_8 
