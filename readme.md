@@ -104,6 +104,9 @@ Then once inserted, insert the port numbers used.
 ```
 Double click on the search bar to bring up full https address 
 
+### Link to flask app deployment
+http://136.112.90.132:5003/ 
+
 ```bash
 HTTPS:123.45.678:5003
 ```
