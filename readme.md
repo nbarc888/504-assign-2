@@ -16,11 +16,15 @@ Code we are using for flask application is flaskapp.py
 Machine configuration settings for this instance used: 
 Series: E2 , Preset machine type: e2=micro(2 vCPU, 1 core, 1GB memory) 
 OS: Ubuntu ,Version Ubuntu 25.04 , Size 10GB
+
 ![ google networking ](images/screenshot1.JPG)
+
 Ensure HTTP Traffic and HTTPS Traffic is allowed under networking category
 
 ## Launch VM then go to SHH
+
 ![ google shh ](images/screenshot2.JPG)
+
 Insert following codes
 ```bash
 sudo apt update 
@@ -58,11 +62,14 @@ python flaskapp.py
 ```
 HTTPS link for the app will generate but will not be functional until following steps. 
 
-## Firewall edit
+## Firewall configuration
 ![ google firewall ](images/screenshot3.JPG)
+
 Go into fire wall box to create a new firewall rule. 
 This is to enable specific generalized access than default access to 433.
+
 ![ google fire config ](images/screenshot4.JPG)
+
 Scroll down to protocols and ports to TCP type in number then create. 
 For Source ivp4 insert 0.0.0.0
 For this example we will be using port 5003
