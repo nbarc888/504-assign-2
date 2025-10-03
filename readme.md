@@ -16,16 +16,44 @@ Ensure HTTP Traffic and HTTPS Traffic is allowed under networking category
 
 # Launch VM then go to SHH
 Insert following codes
-Sudo apt update 
+```bash
+sudo apt update 
+```
+```bash
 sudo apt install python3 python3-pip python3-venv
-Git clone https://github.com/nbarc888/504-assign-2 (insert link for flask template git repo) 
+Git clone (insert link for flask template git repo) 
 Ls -l to list down files within repo
 Then cd (file) and repear ls -l
 python -m venv venv
+```
+```bash
 source venv/bin/activate
+```
+```bash
+Pip install -r requirements.txt
+```
+```bash
 python flaskapp.py
+```
+HTTPS link for the app will generate but will not be functional until following steps. 
 
 # Firewall edit
-Go into fire wall box to create a general rule to enable general public access rather than default access to 433. 
+Go into fire wall box to create a general rule to enable specific generalized access than default access to 433. 
 Scroll down to protocols and ports to TCP type in number then create. 
+
 For Source ivp4 insert 0.0.0.0
+
+For this example we will be using port 5003
+
+# Look up configuration
+Once firewall edits have been made copy and paste the external IP address into the search bar. 
+For example it may show up as this: 
+```bash
+123.45.678
+```
+Then once inserted, insert the port numbers used. 
+```bash
+123.45.678:5003
+```
+Dont forget, when you copy and paste external IP, convert HTTPS to HTTP  by removing the S !
+
