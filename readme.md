@@ -48,10 +48,25 @@ Pip install -r requirements.txt
 ```bash
 python flaskapp.py
 ```
+HTTPS link for the app will generate but will not be functional until following steps. 
+
 # Firewall edit
-Go into fire wall box to create a general rule to enable general public access rather than default access to 433. 
+Go into fire wall box to create a general rule to enable specific generalized access than default access to 433. 
 Scroll down to protocols and ports to TCP type in number then create. 
+
 For Source ivp4 insert 0.0.0.0
 
-NOTE when you copy and paste external IP convert HTTPS to HTTP !!!!!
+For this example we will be using port 5003
+
+# Look up configuration
+Once firewall edits have been made copy and paste the external IP address into the search bar. 
+For example it may show up as this: 
+```bash
+123.45.678
+```
+Then once inserted, insert the port numbers used. 
+```bash
+123.45.678:5003
+```
+Dont forget, when you copy and paste external IP, convert HTTPS to HTTP  by removing the S !
 
